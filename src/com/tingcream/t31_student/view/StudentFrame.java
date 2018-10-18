@@ -13,7 +13,6 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
 import java.awt.Font;
-import java.awt.HeadlessException;
 import java.util.List;
 
 import javax.swing.JTextField;
@@ -281,7 +280,7 @@ public class StudentFrame extends JFrame {
 						tableModel.removeRow(row);//删除选择的行
 					} 
 			   }
-		} catch (HeadlessException e1) {
+		} catch (Exception e1) {
 			e1.printStackTrace();
 			JOptionPane.showMessageDialog(null, "删除数据失败", "错误", JOptionPane.ERROR_MESSAGE);
 		}
