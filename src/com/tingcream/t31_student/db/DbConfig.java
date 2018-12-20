@@ -8,7 +8,6 @@ import javax.sql.DataSource;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 
-
 public class DbConfig {
  
    private static  BasicDataSource basicDataSource;
@@ -48,6 +47,4 @@ public class DbConfig {
    public static DataSource getDataSource() {
       return basicDataSource;
    }
-	 
-
 }

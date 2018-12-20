@@ -215,7 +215,7 @@ public class StudentFrame extends JFrame {
 		 
 		
 		scrollPane.setViewportView(table);
-		contentPane.setLayout(gl_contentPane);
+		contentPane.setLayout(gl_contentPane);	
 		this.setLocationRelativeTo(null);
 	}
 	
